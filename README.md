@@ -52,12 +52,14 @@ O projeto seguiu um pipeline clássico de ciência de dados:
 Os modelos de Machine Learning apresentaram uma performance drasticamente superior aos modelos clássicos de séries temporais.
 
 #### Comparativo de Desempenho
-| Modelo          | R²     | MAE (Milhões) | RMSE (Milhões) | Erro Percentual Relativo |
+| Modelo          | R²     | MAE (Toneladas) | RMSE (Toneladas) | Erro Percentual Relativo |
 | :-------------- | :----- | :------------ | :------------- | :----------------------- |
-| **Random Forest** | **0.93** | **0.91** | **1.60** | **24.10%** |
-| XGBoost         | 0.93   | 0.95          | 1.59           | 25.26%                   |
-| Prophet         | Negativo | >30.00          | >30.00           | > 100%                   |
-| ARIMA           | Negativo | >35.00          | >35.00           | > 100%                   |
+| **Random Forest** | **0.94** | **396** | **640** | **21.14%** |
+| XGBoost         | 0.95   | 401          | 603           | 21.41%                |
+| ARIMA           | -1.83 | 8067          | 9580           |  430.12%                   |
+| SARIMAX           | -1.59 | 5825          | 9176           |  310.59%                   |
+| SARIMA           | -2.55 | 8622          | 10727           |  459.66%                   |
+| Prophet         | -22.41 | 21340          | 27542           |  1137.72%                   |
 
 **Conclusão Principal:** O modelo **Random Forest** foi o grande destaque, com um erro médio de apenas 24.10% em relação à média histórica, tornando-o uma ferramenta viável para o planejamento estratégico do porto. O modelo final demonstrou alta aderência aos dados reais, como pode ser visto no gráfico abaixo.
 
