@@ -61,7 +61,7 @@ Os modelos de Machine Learning apresentaram uma performance drasticamente superi
 | SARIMA           | -2.55 | 8622          | 10727           |  459.66%                   |
 | Prophet         | -22.41 | 21340          | 27542           |  1137.72%                   |
 
-**Conclusão Principal:** O modelo **Random Forest** foi o grande destaque, com um erro médio de apenas 24.10% em relação à média histórica, tornando-o uma ferramenta viável para o planejamento estratégico do porto. O modelo final demonstrou alta aderência aos dados reais, como pode ser visto no gráfico abaixo.
+**Conclusão Principal:** O modelo **Random Forest** foi o grande destaque, com um erro médio de apenas 21.14% em relação à média histórica, tornando-o uma ferramenta viável para o planejamento estratégico do porto. O modelo final demonstrou alta aderência aos dados reais, como pode ser visto no gráfico abaixo.
 
 ![Gráfico Real vs. Previsto](images/random_forest_predict.png)
 
