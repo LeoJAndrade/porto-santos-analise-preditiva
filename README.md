@@ -45,7 +45,7 @@ O projeto seguiu um pipeline clássico de ciência de dados:
 2.  **Pré-processamento e Engenharia de Atributos:** Limpeza dos dados, tratamento de datas e criação de novas variáveis (features) a partir de componentes temporais e características da operação.
 3.  **Modelagem e Comparação:** Treinamento e avaliação de uma gama de modelos, incluindo:
     * **Modelos de Séries Temporais:** ARIMA, SARIMA, SARIMAX, Prophet.
-    * **Modelos de Machine Learning:** Regressão Linear, Random Forest, XGBoost.
+    * **Modelos de Machine Learning:** Random Forest, XGBoost.
 4.  **Avaliação:** Os modelos foram avaliados usando um conjunto de métricas de regressão (R², MAE, RMSE) e uma métrica de Erro Percentual Relativo à Média.
 
 ## 6. Resultados
